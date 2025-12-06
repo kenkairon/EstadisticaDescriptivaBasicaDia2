@@ -139,7 +139,7 @@ dept_stats = df.groupby('departamento').agg({
 
 print(dept_stats)
 ```
-# Por nivel
+## Por nivel
 ```python
 
 print("\n\nANÁLISIS POR NIVEL")
