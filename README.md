@@ -138,8 +138,10 @@ dept_stats = df.groupby('departamento').agg({
 }).round(2)
 
 print(dept_stats)
+```
+# Por nivel
+```python
 
-Por nivel
 print("\n\nANÁLISIS POR NIVEL")
 print("=" * 20)
 
